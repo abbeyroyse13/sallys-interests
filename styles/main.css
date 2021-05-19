@@ -1,0 +1,28 @@
+body {
+    color: dodgerblue;
+    background-color: black;
+}
+
+.bio_interests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest {
+    border: blueviolet solid;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    flex-basis: 16%;
+    justify-content: space-around;
+}
+
+.save-btn {
+    background-color: green;
+    border-radius: 15px;
+}
+
+.dont-btn {
+    background-color: darkcyan;
+    border-radius: 15px;
+}
